@@ -1,0 +1,284 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+    \item\small{
+            {\vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2          \\
+        \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingSingleRow}[2]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{#2}          \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{{\huge Ashmit Gupta}} \\
+%%Creative Engineer at PingSafe with 3+ years of experience & \href{https://www.linkedin.com/in/creadeviti/}{LinkedIn: linkedin.com/in/creadeviti} \\%%
+Contact: \href{mailto:creadeviti@gmail.com}{ashmit.93025@gmail.com}, \href{tel:+91-8486777040}{+91-9302505734} %%& \href{https://github.com/ays14}{Github: github.com/ays14} \\
+\end{tabular*}
+
+%-----------Work Experience-----------------
+% \section{~~Work Experience}
+% \vspace{5pt}
+% \resumeSubHeadingListStart
+% \resumeSubheading
+% {PingSafe India Pvt Ltd}{Bangalore, India}
+% {Creative Engineer}{Aug 2022 - Present}
+% \resumeItemListStart
+% \resumeItemWithoutTitle{}
+% {Leading the development of product and design system with a team of 3 designers and 3 frontend developers.}
+% \resumeItemWithoutTitle{}
+% {Owns the UI in ReactJS for the most valuable feature of the product - Security Atlas, which is a graph-based representation of the client's overall infrastructure and security insights using ReactFlow along with directed-acyclic graph layout (dagreJS).}
+% \resumeItemWithoutTitle{}
+% {Researched and built graph-based UI to visualise K8s and AWS ECS using cytoscapeJS and force-directed graph layout (react-force-graph).}
+% \resumeItemWithoutTitle{}
+% {Built the backend (NodeJS) and UI for multiple SaaS integrations like Jira, Slack, OpsGenie etc., to build an automatic alerting system that notifies clients when an issue is created or updated on PingSafe.}
+% \resumeItemListEnd
+% \vspace{5pt}
+% \resumeSubheading{Sugarfit (Ragus Healthcare Pvt Ltd), Cult.fit Spin-off}{Bangalore, India}
+% {Software Engineer}{Jan 2022 - Aug 2022}
+% \resumeItemListStart
+% \resumeItemWithoutTitle{}
+% {Responsible for leading all the typescript-based projects. Owned multiple UI side features on Sugarfit’s website and owns the complete web application for coaches and doctors (Orion) and another app for business operations (Xray).}
+% \resumeItemWithoutTitle{}
+% {Built various features to upgrade the Orion and Xray in accordance with the product evolutions of Sugarfit and Ultrafit.}
+% \resumeItemWithoutTitle{}
+% {Improved Orion’s React-side architecture and optimised components to deliver performance improvements up to 70\%.}
+% \resumeItemListEnd
+% \vspace{5pt}
+% \resumeSubheading{Cult.fit (Cure.fit Healthcare Pvt Ltd}{Bangalore, India}
+% {Software Engineer}{June 2020 - Dec 2022}
+% \resumeItemListStart
+% \resumeItemWithoutTitle{}
+% {Owned multiple dashboards for internal platforms microservices and built various features, including video-based remote center auditing, teleselling, customer support section management, internal SSO login with responsive layout, and improved architectural performance along with react component-level optimisations.}
+% \resumeItemWithoutTitle{}
+% {Built 3 web applications from scratch with complete ownership:
+% \resumeItemListStart
+% \resumeItem{Shifu-UI}
+% {For coaches to connect with customers for Cult Transform Product.}
+% \resumeItem{Falcon-UI}
+% {For ops and managers to manage Cult.fit’s search.}
+% \resumeItem{Mozart-UI}
+% {To manage scheduled jobs at Mozart microservice along with automation for batch and recurring tasks. Also, designed the complete UI and UX for Mozart.}
+% \resumeItemListEnd
+% }
+% \vspace{5pt}
+% \resumeItemWithoutTitle{}{Built automation for action on profiled customer issues based on configuration action over profiled issue category, especially from email tickets. Also, built a UI dashboard for the same.}
+% \resumeItemListEnd
+
+% \vspace{5pt}
+% \resumeSubheading{Innovaccer Analytics Pvt Ltd}{Noida, India}
+% {Engineering Intern}{May 2019 - July 2019}
+% \resumeItemListStart
+% \resumeItemWithoutTitle{}
+% {Integrated Microsoft's Adaptive Cards using ReactJS in the InNote (ElectronJS) application and redesigned the UI into a unified interface of card layout. }
+% \resumeItemWithoutTitle{}
+% {Implemented Patient Report download, PDF print and centralised Feedback and Rating system.}
+% \resumeItemListEnd
+
+% \vspace{5pt}
+% \resumeSubheading{Appsecure India Pvt Ltd}{Bangalore, India}
+% {Engineering Intern}{May 2018 - July 2018}
+% \resumeItemListStart
+% \resumeItemWithoutTitle{}
+% {Automated penetration testing on websites and mobile applications by integrating testing scripts using NodeJS-based APIs with user-account management and payment integration.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+% %
+%-----------EDUCATION-----------------
+\section{~~Education}
+\vspace{5pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+{SRM Institute of Science \& Technology, Kattankalathur}{}
+{Bachelor of Technology - Computer Science Engineering}{June 2024 - May 2028}
+\resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Higher Secondry}{}
+{CBSE Board - 69.4\%}{2023 - 2024}
+\resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Secondry}{}
+{CBSE Board - 94\%}{2021 - 2022}
+\resumeSubHeadingListEnd
+\vspace{-2pt}
+
+%-----------Leadership-----------------
+% \section{~~Leadership}
+% \resumeItemListStart
+% \vspace{5pt}
+% \resumeItemWithoutTitle{}
+% {Initiated and hosted "Friyay" for the team at 
+% \textbf{PingSafe} and \textbf{Cult.fit} to take time off and endure team-building activities with indoor \& outdoor sports and online  gaming.}
+% \vspace{-2pt}
+% \resumeItemWithoutTitle{}
+% {Volunteered to conduct boot camp session for freshers of 2021 for Web Application development.}
+% \vspace{-2pt}
+% \resumeItemWithoutTitle{}
+% {Mentored and supported freshers of 2021 in their initial stages with Cult.fit so as to ensure a smooth transition from the college world to the corporate world.}
+% \resumeItemListEnd
+% \vspace{-2pt}
+
+%-----------Achievements-----------------
+\section{~~Achievements}
+\vspace{5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Quest 3.0}{September 2024}
+\resumeItemListStart
+\resumeItemWithoutTitle{}{Successfully led my team to victory in the prestigious Hackathon organized by the Coding Ninja club. The competition featured multiple rounds of increasingly difficult coding challenges, showcasing our expertise and problem-solving skills in the C programming language.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{HackerRank}{}
+\resumeItemListStart
+\resumeItemWithoutTitle{}{
+Earned a prestigious 3-star badge on HackerRank by demonstrating strong problem-solving skills and successfully tackling a variety of coding challenges.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Elab}{}
+\resumeItemListStart
+\resumeItemWithoutTitle{}{Achieved a perfect 100\% success rate in a coding problem-solving assessment conducted on SRM University's official coding platform, demonstrating exceptional analytical and programming skills..}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-------TechnicalSkills-----
+\section{~~Technical Skills}
+\vspace{5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Programming languages:}{}
+\resumeItemListStart
+\resumeItemWithoutTitle{}{C, Python}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Tools \& Libraries:}{}
+\resumeItemListStart
+\resumeItemWithoutTitle{}{MATPLOT, Pandas, Numpy}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----Courses-----
+\section{~~Courses}
+\vspace{5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Semiconductor Physics and Computational Methods}{}
+\resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\vspace{-5pt}
+\resumeSubheadingSingleRow{Electrical and Electronics Engineering}{}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Programming for Problem Solving}{}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Calculus and Linear Algebra}{}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Communicative English}{}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Engineering Graphics and Design}{}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+%-----Projects----
+\section{~~Projects}
+\vspace{5pt}
+\resumeSubHeadingListStart
+\resumeSubheadingSingleRow{Smart Dustbin:}{\(Semiconductor\)}
+\resumeItemListStart
+\resumeItemWithoutTitle{}{Led a team in developing a contactless, smart dustbin using an Arduino Uno, an HC-SR04 ultrasonic sensor, and an SG-90 micro servo motor. The Arduino code was written in C language to control the system.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%\resumeSubheadingSingleRow{\href{https://github.com/ays14/innovaccer-hackercamp-19}{Summer Hackercamp}}{Oct 2018}
+%\resumeItemListStart
+%\resumeItemWithoutTitle{}{Integrated ApiMedic API to provide analytical medical services like symptom analysis, and medical diagnosis and utilized web scrapping to provide medications.}
+% \resumeItemListEnd
+% \vspace{-5pt}
+% \resumeSubheadingSingleRow{Lenshood}{Nov 2018 - Jan 2019}
+% \resumeItemListStart
+% \resumeItem{College Startup}{Created payment gateway using Razorpay \& integrated Nodemailer with user signin/signup flow.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+\end{document}
